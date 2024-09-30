@@ -348,6 +348,9 @@ Persistent object databases
 * [cl-naive-store](https://gitlab.com/Harag/cl-naive-store) - a naive persisted, in memory (lazy loading), indexed, document store for Common Lisp. [MIT][200].
   - see [the introductory blog post](https://zaries.wordpress.com/2022/05/31/cl-naive-store/)
   - dare we add: used in production by the author's company (ASTN Group, see awesome-lisp-companies)
+* [Clobber](https://github.com/robert-strandh/Clobber)
+  - "Clobber is both simpler, more flexible, and more robust than systems based on object prevalence."
+  - "Clobber is simpler because we do not take any snapshots at all. Other systems typically use a combination of transaction logs and snapshots. Clobber uses only a transaction log which is always read into an empty system."
 
 See also [Clache](https://github.com/html/clache), that can save any object on disk.
 
